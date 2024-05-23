@@ -1,5 +1,7 @@
 # mongodb-python-connects
-Sobre script python con conexión a Atlas-MongoDB
+Sobre script python con conexión a Atlas-MongoDB.
+
+Dockeriza el script y lo pushea a DockerHub mediante GitHub Actions al hacer un push a main.
 
 
 ## Para conectarse al cli de Mongodb
@@ -28,3 +30,11 @@ docker build -t mongoconnect .
 ```console
 docker run mongoconnect
 ```
+
+## Github Actions
+
+https://github.com/nicosistemas/mongodb-python-connects/blob/main/.github/workflows/actions.yml
+
+## Docker Hub
+
+https://hub.docker.com/repository/docker/nicosistemas/mongoconnect/general
