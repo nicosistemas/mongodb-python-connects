@@ -19,3 +19,12 @@ Commands:
 mongosh "mongodb+srv://Cluster78180:fHtlpirulines@cluster78180.mwv8wrj.mongodb.net" --apiVersion 1 --username Cluster78180
 ```
 
+## Dockerizar
+
+
+```console
+docker build -t mongoconnect .
+```
+```console
+docker run mongoconnect
+```
